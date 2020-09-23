@@ -2,6 +2,14 @@ public abstract class Operation {
     private double numberA;
     private double numberB;
 
+    public Operation() {
+    }
+
+    public Operation(double numberA, double numberB) {
+        this.numberA = numberA;
+        this.numberB = numberB;
+    }
+
     public double getNumberA() {
         return numberA;
     }

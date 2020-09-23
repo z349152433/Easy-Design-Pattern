@@ -1,3 +1,4 @@
+//工厂类根据运算符new具体的Operation对象并返回
 public class OperationFactory {
     public static Operation createOperation(String operate){
         Operation oper=null;
